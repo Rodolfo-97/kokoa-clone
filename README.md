@@ -1,3 +1,3 @@
 # Kokoa clone
 
-practice CSS and HTML
+practice CSS and HTML!!
