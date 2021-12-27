@@ -1,0 +1,30 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  padding-top: 40px;
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.screen-header__icon span {
+  margin-left: 25px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icon .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
